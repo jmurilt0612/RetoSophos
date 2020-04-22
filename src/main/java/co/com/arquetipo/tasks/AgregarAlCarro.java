@@ -3,7 +3,6 @@ package co.com.arquetipo.tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.waits.Wait;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.arquetipo.userinterfaces.PaginaCarroDeCompras.LBL_INICIAL_CARRO_COMPRAS;
