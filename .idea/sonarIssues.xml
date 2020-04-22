@@ -3,29 +3,26 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/tasks/AgregarAlCarro.java">
+        <entry key="$PROJECT_DIR$/src/main/java/TestDePrueba.java">
           <value>
             <set />
           </value>
         </entry>
-<<<<<<< HEAD
-        <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/tasks/servicios/ObtenerServicioFiltro.java">
+        <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/userinterfaces/PaginaCarroDeCompras.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/test/java/co/com/arquetipo/prueba/ConsultarEstadoDelServicio.java">
+        <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/userinterfaces/PaginaInicial.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/test/java/co/com/arquetipo/stepdefinitions/CarroDeCompra.java">
+        <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/userinterfaces/PaginaResultadoBusqueda.java">
           <value>
             <set />
           </value>
         </entry>
-=======
->>>>>>> Develop
       </map>
     </option>
   </component>

@@ -5,9 +5,10 @@ import org.openqa.selenium.By;
 
 public class PaginaInicial {
 
-    public static Target COMBOX_BUSCAR = Target.the("Caja de busqueda inicial")
+    private PaginaInicial(){}
+    public static final Target COMBOX_BUSCAR = Target.the("Caja de busqueda inicial")
             .located(By.id("i-search"));
 
-    public static Target BTN_BUSCAR_PAGINA_PRINCIPAL = Target.the("Boton buscar en la pagina principal")
+    public static final Target BTN_BUSCAR_PAGINA_PRINCIPAL = Target.the("Boton buscar en la pagina principal")
             .locatedBy("//*[@class='icons-buscar']");
 }

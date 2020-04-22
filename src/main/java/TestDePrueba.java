@@ -4,9 +4,7 @@ import co.com.arquetipo.tasks.servicios.RegistrarUsuarioRegres;
 import co.com.arquetipo.utils.ConstantesUrl;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
-import org.junit.Assert;
 import org.junit.Test;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
