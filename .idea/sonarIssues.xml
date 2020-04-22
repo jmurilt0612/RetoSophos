@@ -8,6 +8,7 @@
             <set />
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/co/com/arquetipo/tasks/servicios/ObtenerServicioFiltro.java">
           <value>
             <set />
@@ -23,6 +24,8 @@
             <set />
           </value>
         </entry>
+=======
+>>>>>>> Develop
       </map>
     </option>
   </component>
