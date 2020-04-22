@@ -14,17 +14,17 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class ConsultarEstadoDelServicio {
 
-    public Actor Juan = Actor.named("Juan");
+    private Actor juan = Actor.named("Juan");
 
     @Cuando("^consulte el servicio de GoRest con el token de acceso (.*)y el correo (.*)$")
     public void consulteElServicioDeGoRestConElTokenDeAcceso(String token, String correo) {
-        Juan.whoCan(CallAnApi.at(ConstantesUrl.GET_USUARIOS_SERVICIO_GOREST.getUrl()));
-        Juan.attemptsTo(ObtenerServicioFiltro.porParametro(token, correo));
+        juan.whoCan(CallAnApi.at(ConstantesUrl.GET_USUARIOS_SERVICIO_GOREST.getUrl()));
+        juan.attemptsTo(ObtenerServicioFiltro.porParametro(token, correo));
     }
 
     @Entonces("^el estado del servicio es (.*)$")
     public void elEstadoDelServicioEs(int codigo) {
-        Juan.should(
+        juan.should(
                 seeThat("El codigo de respuesta" , CodigoDeRespuesta.es(),equalTo(codigo))
         );
     }
@@ -32,7 +32,7 @@ public class ConsultarEstadoDelServicio {
     @Entonces("^el id del usuario es (.*)$")
     public void elCorreoVivianeExampleOrgConsultadoCorrespondeAlCorreo(String id) {
 
-        Juan.should(
+        juan.should(
                 seeThat("El usuario consultado", ObtenerId.es(), equalTo(id))
         );
 

@@ -3,15 +3,14 @@ package co.com.arquetipo.tasks.servicios;
 import co.com.arquetipo.utils.FiltrosServicios;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Get;
 
 public class ObtenerServicioFiltro implements Task {
 
-   public String token;
-   public String correo;
+   private String token;
+   private String correo;
    public ObtenerServicioFiltro(String token, String correo){
        this.correo= correo;
        this.token=token;
